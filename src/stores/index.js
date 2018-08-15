@@ -1,0 +1,1 @@
+export { default as TalesStore } from './TalesStore';
