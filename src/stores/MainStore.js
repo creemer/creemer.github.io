@@ -1,13 +1,13 @@
 import { observable, action, decorate } from 'mobx';
 
-class TalesStore {
+class MainStore {
     constructor() {
-        
+
     }
 }
 
-decorate(TalesStore, {
+decorate(MainStore, {
 
 });
 
-export default new TalesStore();
+export default new MainStore();

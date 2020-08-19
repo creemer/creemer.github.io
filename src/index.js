@@ -2,8 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './css/index.css';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
-import { TalesStore } from './stores';
+import { MainStore } from './stores';
 import { Provider } from 'mobx-react';
 import { configure } from 'mobx';
 
@@ -15,7 +14,7 @@ configure({
 });
 
 const stores = (window.mobxStores = {
-    tales: TalesStore
+    tales: MainStore
 });
 
 ReactDOM.render(
@@ -24,4 +23,3 @@ ReactDOM.render(
     </Provider>,
     document.getElementById('root')
 );
-registerServiceWorker();

@@ -1,1 +1,1 @@
-export { default as TalesStore } from './TalesStore';
+export { default as MainStore } from './MainStore';
