@@ -1,4 +1,5 @@
 import React from 'react';
+import map from '../images/map.png'
 import '../index.css'
 
 const Contact = () => {
@@ -9,16 +10,15 @@ const Contact = () => {
 
             <div className="w3-row w3-padding-32 w3-section">
                 <div className="w3-col m4 w3-container">
-                    <img src="/w3images/map.jpg" className="w3-image w3-round" style={{width: '100%'}} alt="some map image in contact"/>
+                    <img src={map} className="w3-image w3-round" style={{width: '100%'}} alt="some map image in contact"/>
                 </div>
                 <div className="w3-col m8 w3-panel">
                     <div className="w3-large w3-margin-bottom">
-                        <i className="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"/> Chicago,
-                        US<br/>
-                        <i className="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"/> Phone: +00
-                        151515<br/>
+                        <i className="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"/> Moscow,
+                        Russia<br/>
+                        <i className="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"/> Phone: +7 (926) 388-84-06<br/>
                         <i className="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"/> Email:
-                        mail@mail.com<br/>
+                        3888406@gmail.com<br/>
                     </div>
                     <p>Swing by for a cup of <i className="fa fa-coffee"/>, or leave me a note:</p>
                     <form action="" target="_blank">

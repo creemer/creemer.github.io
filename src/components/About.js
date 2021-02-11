@@ -1,12 +1,13 @@
 import React from 'react';
 import '../index.css';
+import avatar from '../images/avatar.jpg'
 
 const About = () => {
     return (
         <React.Fragment>
             <div className="w3-content w3-container w3-padding-64" id="about">
                 <h3 className="w3-center">ABOUT ME</h3>
-                <p className="w3-center"><em>I love photography</em></p>
+                <p className="w3-center"><em>I love programming</em></p>
                 <p>We have created a fictional "personal" website/blog, and our fictional character is a hobby photographer.
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam,
@@ -18,8 +19,8 @@ const About = () => {
                     laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div className="w3-row">
                     <div className="w3-col m6 w3-center w3-padding-large">
-                        <p><b><i className="fa fa-user w3-margin-right"/>My Name</b></p><br/>
-                        <img src="w3images/avatar_hat.jpg" className="w3-round w3-image w3-opacity w3-hover-opacity-off"
+                        <p><b><i className="fa fa-user w3-margin-right"/>Kolpakov Alexander</b></p><br/>
+                        <img src={avatar} className="w3-round w3-image w3-opacity w3-hover-opacity-off"
                              alt="Photo of Me" width="500" height="333"/>
                     </div>
 
@@ -36,17 +37,21 @@ const About = () => {
                     </div>
                 </div>
                 <p className="w3-large w3-center w3-padding-16">Im really good at:</p>
-                <p className="w3-wide"><i className="fa fa-camera"/>Photography</p>
+                <p className="w3-wide"><i className="fa fa-code"/>JavaScript</p>
                 <div className="w3-light-grey">
                     <div className="w3-container w3-padding-small w3-dark-grey w3-center" style={{width: '90%'}}>90%</div>
                 </div>
-                <p className="w3-wide"><i className="fa fa-laptop"/>Web Design</p>
+                <p className="w3-wide"><i className="fa fa-laptop"/>React</p>
                 <div className="w3-light-grey">
-                    <div className="w3-container w3-padding-small w3-dark-grey w3-center" style={{width: '85%'}}>85%</div>
+                    <div className="w3-container w3-padding-small w3-dark-grey w3-center" style={{width: '90%'}}>90%</div>
                 </div>
-                <p className="w3-wide"><i className="fa fa-photo"/>Photoshop</p>
+                <p className="w3-wide"><i className="fa fa-terminal"/>NodeJS/Express</p>
                 <div className="w3-light-grey">
                     <div className="w3-container w3-padding-small w3-dark-grey w3-center" style={{width: '75%'}}>75%</div>
+                </div>
+                <p className="w3-wide"><i className="fa fa-users"/>Soft Skills</p>
+                <div className="w3-light-grey">
+                    <div className="w3-container w3-padding-small w3-dark-grey w3-center" style={{width: '95%'}}>95%</div>
                 </div>
             </div>
 
