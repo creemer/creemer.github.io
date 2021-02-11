@@ -1,25 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './css/index.css';
+import './index.css';
 import App from './App';
-import { MainStore } from './stores';
-import { Provider } from 'mobx-react';
-import { configure } from 'mobx';
-
-/*
-*   Configuring MobX
-*/
-configure({
-    enforceActions: true
-});
-
-const stores = (window.mobxStores = {
-    tales: MainStore
-});
 
 ReactDOM.render(
-    <Provider {...stores}>
-        <App />
-    </Provider>,
-    document.getElementById('root')
+    <App />, document.getElementById('root')
 );
