@@ -18,21 +18,21 @@ const NavBar = () => {
                    onClick={toggleFunction}
                    title="Toggle Navigation Menu"
                 >
-                    <i className="fa fa-bars"></i>
+                    <i className="fa fa-bars" />
                 </a>
                 <a href="#home" className="w3-bar-item w3-button">
                     HOME
                 </a>
                 <a href="#about" className="w3-bar-item w3-button w3-hide-small">
-                    <i className="fa fa-user"/>
+                    <i className="fa fa-user w3-padding-small"/>
                     ABOUT
                 </a>
                 <a href="#portfolio" className="w3-bar-item w3-button w3-hide-small">
-                    <i className="fa fa-th"/>
+                    <i className="fa fa-th w3-padding-small"/>
                     PORTFOLIO
                 </a>
                 <a href="#contact" className="w3-bar-item w3-button w3-hide-small">
-                    <i className="fa fa-envelope"/>
+                    <i className="fa fa-envelope w3-padding-small"/>
                     CONTACT
                 </a>
             </div>
