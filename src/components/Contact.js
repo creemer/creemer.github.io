@@ -16,7 +16,7 @@ const Contact = () => {
                     <div className="w3-large w3-margin-bottom">
                         <i className="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"/> Moscow,
                         Russia<br/>
-                        <i className="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"/> Phone: +7 (926) 388-84-06<br/>
+                        <i className="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"/> Phone: +7 (926) 000-00-00<br/>
                         <i className="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"/> Email:
                         3888406@gmail.com<br/>
                     </div>

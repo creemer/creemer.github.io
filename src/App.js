@@ -9,34 +9,37 @@ import './index.css';
 const App = () => {
     return (
         <React.Fragment>
-            <NavBar />
+            <NavBar/>
 
-            <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-                <div class="w3-display-middle">
-                    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
+            <div className="bgimg-1 w3-display-container w3-opacity-min" id="home">
+                <div className="w3-display-middle">
+                    <span className="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span
+                        className="w3-hide-small">WEBSITE</span> LOGO</span>
                 </div>
             </div>
 
-            <About />
+            <About/>
 
 
-            <div class="bgimg-2 w3-display-container w3-opacity-min">
-                <div class="w3-display-middle">
-                    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PORTFOLIO</span>
+            <div className="bgimg-2 w3-display-container w3-opacity-min">
+                <div className="w3-display-middle">
+                    <span
+                        className="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">PORTFOLIO</span>
                 </div>
             </div>
 
-            <Portfolio />
+            <Portfolio/>
 
-            <div class="bgimg-3 w3-display-container w3-opacity-min">
-                <div class="w3-display-middle">
-                    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONTACT</span>
+            <div className="bgimg-3 w3-display-container w3-opacity-min">
+                <div className="w3-display-middle">
+                    <span
+                        className="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">CONTACT</span>
                 </div>
             </div>
 
-            <Contact />
+            <Contact/>
 
-            <Footer />
+            <Footer/>
         </React.Fragment>
     );
 };
